@@ -1,0 +1,80 @@
+:root {
+    --text: #efefef;
+    --bg: #1d1d1d;
+    --text_hover: antiquewhite;
+}
+
+body {
+    font-family: "Roboto Mono", serif;
+    background-color: var(--bg);
+    color: var(--text);
+    overflow: hidden;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+ul li {
+    display: inline;
+    margin: 10px;
+}
+
+ul li:hover {
+    color: var(--text_hover);
+    cursor: grab;
+    background-color: #3d3d3d;
+}
+
+a {
+    color: var(--text);
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+
+    body {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+
+    body {
+        display: block;
+        /* Listenelemente werden vertikal statt horizontal angezeigt */
+        margin-bottom: 10px;
+        /* Abstand zwischen den Listenelementen */
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
