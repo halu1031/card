@@ -72,6 +72,7 @@ a {
         margin-bottom: 10px;
         /* Abstand zwischen den Listenelementen */
         text-align: center;
+        overflow: hidden;
     }
 
     h1 {
