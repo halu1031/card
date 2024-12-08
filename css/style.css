@@ -58,7 +58,7 @@ a {
         margin-bottom: 10px;
         text-align: center;
         overflow: hidden;
-        font-size: 30px;
+        font-size: 40px;
         height: 100vh;
     }
     html, body {
@@ -68,6 +68,6 @@ a {
     ul li { display: block; }
 
     h1 {
-        font-size: 50px;
+        font-size: 60px;
     }
 }
