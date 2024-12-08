@@ -51,31 +51,19 @@ a {
 }
 
 
-
-@media screen and (max-width: 1400px) {
-
-    body {
-        font-size: 20px;
-    }
-
-    h1 {
-        font-size: 40px;
-    }
-}
-
-
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 990px) {
 
     body {
         display: block;
-        /* Listenelemente werden vertikal statt horizontal angezeigt */
         margin-bottom: 10px;
-        /* Abstand zwischen den Listenelementen */
         text-align: center;
         overflow: hidden;
+        font-size: 40px;
     }
 
+    ul li { display: block; }
+
     h1 {
-        font-size: 20px;
+        font-size: 60px;
     }
 }
