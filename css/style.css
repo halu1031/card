@@ -61,6 +61,15 @@ a {
         font-size: 30px;
         height: 100vh;
     }
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        height: 100vh;
+    }
 
     ul li { display: block; }
 
