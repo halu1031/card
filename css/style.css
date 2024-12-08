@@ -30,7 +30,7 @@ ul li {
 
 ul li:hover {
     color: var(--text_hover);
-    cursor: grab;
+    cursor:grabbing;
     background-color: #3d3d3d;
 }
 
@@ -46,8 +46,8 @@ a {
     justify-content: center;
     align-items: center;
     align-content: center;
-    height: 100vh;
     flex-wrap: wrap;
+    height: 100vh;
 }
 
 
@@ -58,12 +58,13 @@ a {
         margin-bottom: 10px;
         text-align: center;
         overflow: hidden;
-        font-size: 40px;
+        font-size: 30px;
+        height: 100vh;
     }
 
     ul li { display: block; }
 
     h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
 }
